@@ -1,0 +1,2 @@
+<!-- 將這行加入 MainWindow 的 Grid 或其他面板中 -->
+<Label x:Name="ColorLabel" />

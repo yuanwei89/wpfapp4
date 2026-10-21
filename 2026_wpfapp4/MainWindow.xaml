@@ -38,9 +38,9 @@
                 </RadioButton>
             </ToolBar>
         </ToolBarTray>
-        <StatusBar Height="35"   Background="#FFC1E1F5" DockPanel.Dock="Bottom">
-            <StatusBarItem Width="200">
-                <Label x:Name="StatusLabel" Content="Ready"  VerticalAlignment="Center" FontSize="14 " Width="150" Margin="10,0,0,0"/>
+        <StatusBar Height="35"   Background="#FFC1E1F5" DockPanel.Dock="Bottom" MouseLeftButtonUp="StatusBar_MouseLeftButtonUp">
+            <StatusBarItem Width="400">
+                <Label x:Name="StatusLabel" Content="Ready"  VerticalAlignment="Center" FontSize="14 " Width="362"/>
             </StatusBarItem>
             <Separator/>
             <StatusBarItem Width="200">
@@ -51,6 +51,6 @@
                 <Label x:Name="ColorLabel" Content="顏色"  VerticalAlignment="Center" FontSize="14 "  Margin="10,0,0,0"/>
             </StatusBarItem>
         </StatusBar>
-        <Canvas  Background="#FFDFFDD7"/>
+        <Canvas x:Name="MyCanvas"  Background="#FFDFFDD7" MouseEnter="MyCanvas_MouseEnter" MouseLeftButtonDown="MyCanvas_MouseLeftButtonDown" MouseLeftButtonUp="MyCanvas_MouseLeftButtonUp"/>
     </DockPanel>
 </Window>

@@ -10,8 +10,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="earser.png" />
     <None Remove="ellipse.png" />
+    <None Remove="eraser.png" />
+    <None Remove="garbage.png" />
     <None Remove="line.png" />
+    <None Remove="png\ellipse.png" />
+    <None Remove="png\eraser.png" />
+    <None Remove="png\garbage.png" />
+    <None Remove="png\line.png" />
+    <None Remove="png\polyline.png" />
+    <None Remove="png\rectangle.png" />
     <None Remove="polyline.png" />
     <None Remove="rectangle.png" />
   </ItemGroup>
@@ -21,10 +30,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="ellipse.png" />
-    <Resource Include="line.png" />
-    <Resource Include="polyline.png" />
-    <Resource Include="rectangle.png" />
+    <Resource Include="png\ellipse.png" />
+    <Resource Include="png\eraser.png" />
+    <Resource Include="png\garbage.png" />
+    <Resource Include="png\line.png" />
+    <Resource Include="png\polyline.png" />
+    <Resource Include="png\rectangle.png" />
   </ItemGroup>
 
 </Project>
